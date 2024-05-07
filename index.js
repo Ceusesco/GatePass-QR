@@ -23,10 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Apartment Number:', apartmentNumber);
     console.log('Message:', message);
 
-
     // Additional details
-    //const visitDate = document.getElementById('visitDate').value; // Assuming you have an input for visit date
-    //const visitTime = document.getElementById('visitTime').value; // Assuming you have an input for visit time
+    const visitDate = document.getElementById('visitDate').value; // Assuming you have an input for visit date
+    const visitTime = document.getElementById('visitTime').value; // Assuming you have an input for visit time
 
     // Ensure the container for QR code image exists
     const qrCodeContainer = document.getElementById('qrCode');
@@ -44,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Construct the data string with all parameters
-    const dataString = `Tenant Name: ${tenantName}, Visitor Name: ${visitorName}, Mobile Number: ${mobileNumber}, Apartment Number: ${apartmentNumber}, Message: ${message}`;//, Visit Date: ${visitDate}, Visit Time: ${visitTime}
+    const dataString = `Tenant Name: ${tenantName}, Visitor Name: ${visitorName}, Mobile Number: ${mobileNumber}, Apartment Number: ${apartmentNumber}, Message: ${message}, Visit Date: ${visitDate}, Visit Time: ${visitTime}`;//
 
 
     // Define your API URL with collected data

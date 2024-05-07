@@ -1,3 +1,79 @@
+
+
+
+#qrForm{
+    width: 60%;
+    background-color:#ECE2E2;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+h1{
+
+    background-color: #53A18E;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    }
+
+    #main-section{
+
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+
+    #inner{
+        
+    width: 30%;
+    background-color: #ECE2E2;
+    padding-left: 5px;
+    padding-top: 40px;
+    margin: 10px;
+    margin-left: -18.9px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+        
+
+ }
+
+#result-box{
+    
+    background-color:lightslategrey;
+    width: 30%;
+    padding-left: 5px;
+    padding-top: 40px;
+    margin: 10px;
+    margin-left: -18.9px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+#qrCode{
+    width: 300px;
+    height: 300px;
+    
+}
+
+
 /* #qrCode{
     display:flexbox;
     align-items: center;
